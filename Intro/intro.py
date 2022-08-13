@@ -8,11 +8,13 @@ def intro():
             This git wiki stores basic information, commands and recipes
             for creating, maintaining and troubleshoting git repositories. 
             It is not meant to be a deep dive resource about git but rather 
-            a quick refresher or reference.
+            a quick refresher or reference about this beautiful distributed
+            version control system.
 
 
             ''')
 
+    st.write(''' ''')
     st.write(''' ''')
 
     with st.expander('Support'):
@@ -20,7 +22,7 @@ def intro():
 
             If you like this project and you would like to support it's further development, you
             can make a donation by sending ERG, ADA or BTC to the following addresses:
-            
+
             ###### ERG
         
                 9fkAUtZsEegVyKukFAzGN89zWsoHSK7JCBcNxwgiE7oHC95AFTY

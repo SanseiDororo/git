@@ -1,7 +1,7 @@
 import streamlit as st
 
 def initialisation():
-    st.header('Git Wiki')
+    st.header('Initialisation')
     st.write("")
     st.write('''
             In order to change a local folder into a git repository, we need a working version
@@ -18,6 +18,7 @@ def initialisation():
 
             ''')
             
+    st.write('''''')
     st.write('''''')
 
     with st.expander('Configuration'):
@@ -43,6 +44,7 @@ def initialisation():
             |---------------------------------------|----------------------------------------------|
             | git init                              | Initialize a local Git repository            |
             | git clone ssh://git@github.com/[username]/[repository-name].git  | Create a local copy of the repository|
+            
                                                          
         
         ''')
@@ -54,14 +56,14 @@ def initialisation():
 
             | Command                               | Description                                  |
             |---------------------------------------|----------------------------------------------|
-            | git status                            | Checking status of the reposito       |
-            | git add [file-name.txt]               | Adding file to the staging area       |
-            | git add -A                            | Adding all tracked and changed files to staging      |
+            | git status                            | Check status of the reposito       |
+            | git add [file-name.txt]               | Add file to the staging area       |
+            | git add -A                            | Add all tracked and changed files to staging      |
             | git reset file                        | Unstage file. Changes in the working directory retain.      |
             | git diff                              | Review unstaged changes|
             | git diff --staged                     | Review staged but not yet commited changes      |
-            | git commit -m "[commit message]"      | Commiting staged files with commit message       |
-            | git rm -r [file-name.txt]             | Removing files from staging      |
+            | git commit -m "[commit message]"      | Commit staged files with commit message       |
+            | git rm -r [file-name.txt]             | Remove files from staging      |
                                                          
         
         ''')
