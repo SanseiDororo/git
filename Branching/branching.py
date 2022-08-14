@@ -10,6 +10,8 @@ def branching():
             Besides, development history is transparent and more easily managable. Technically branches are 
             pointers to a snapshots of produced changes.  
 
+            Branches are stored in .git/refs/heads folder
+
             ''')
             
     st.write('''''')
